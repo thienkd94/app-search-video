@@ -68,10 +68,10 @@ form {
 form label {
   display: block;
   position: relative;
-  top: -20px;
+  top: -40px;
   left: 0;
   color: #999;
-  font-size: 16px;
+  font-size: 12px;
   transition: all 0.3s ease;
   z-index: 1;
 }
@@ -91,13 +91,6 @@ form input:focus,
 form input:valid {
   outline: none;
   border-bottom: 1px solid #00aced;
-}
-
-form input:focus + label, 
-form input:valid + label {
-  font-size: 12px;
-  top: -40px;
-  color: #00aced;
 }
 
 form .divider {
@@ -137,26 +130,28 @@ form .divider {
 
 .content .section-left {
   position: relative;
-  width: 25%;
-  height: 150px;
+  width: 30%;
+  height: 200px;
   float: left;
 }
 
 .content .section-left span {
   position: absolute;
-  right: 20px;
-  bottom: -20px;
-  background-color: darkgray;
+  right: 0px;
+  bottom: 16px;
+  background-color: darkslategrey;
+  color: #fff;
   padding: 5px 10px;
 }
 
 .content .section-left img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    padding: 15px 20px 20px 0;
 }
 
 .content .section-right {
-  width: 70%;
+  width: 65%;
   height: 150px;
   float: right;
 }

@@ -34,8 +34,6 @@ const Index = ({ data }) => {
 
       <Header handleChange={handleChange} />
 
-     
-
       <div className="wrap-content">
         {videos.slice(0, numberVideo).map((video, index) => {
           if (video.name.toLowerCase().includes(keywords.toLowerCase())) {
